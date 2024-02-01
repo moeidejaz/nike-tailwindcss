@@ -21,7 +21,7 @@
 
 @layer utilities {
   .padding-x {
-    @apply max-sm:px-8 lg:px-14
+    @apply max-sm:px-8 md:px-14
   }
 
   .padding-l {
