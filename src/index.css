@@ -11,3 +11,24 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@layer utilities {
+  .padding-x {
+    @apply max-sm:px-8 lg:px-14
+  }
+
+  .padding-l {
+    @apply lg:pl-16 max-sm:pl-8
+  }
+
+  .padding-r {
+    @apply lg:pr-72
+  }
+}
