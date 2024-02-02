@@ -17,8 +17,8 @@ const App = () => {
       <Hero />
        <PopularProducts />
       <SuperQuality />
-      {/*<Services />
-      <SpecialOffer />
+      <Services />
+      {/*<SpecialOffer />
       <CustomerReviews />
       <Subscribe /> */}
     </main>
