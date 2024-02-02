@@ -10,7 +10,7 @@ const Nav = () => {
           <img src={headerLogo} alt="logo" />
         </a>
 
-        <ul className="hidden lg:flex lg:gap-12 text-slate-gray font-montserrat">
+        <ul className="hidden lg:flex lg:gap-12 text-slate-gray font-primary">
           {navLinks.map((link) => (
             <li className="text-lg" key={link.label}>
               <a href={link.href}>{link.label}</a>

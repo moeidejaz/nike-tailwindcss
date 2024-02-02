@@ -1,4 +1,4 @@
-import { thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, bigShoe1, bigShoe2, bigShoe3 } from "../assets/images"
+import { thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, bigShoe1, bigShoe2, bigShoe3, shoe4, shoe5, shoe6, shoe7 } from "../assets/images"
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -17,4 +17,11 @@ export const shoes = [
     { thumbnail: thumbnailShoe1, bigShoe: bigShoe1 },
     { thumbnail: thumbnailShoe2, bigShoe: bigShoe2 },
     { thumbnail: thumbnailShoe3, bigShoe: bigShoe3 }
+]
+
+export const products = [
+    { image: shoe4, rating: "4.5", title: "Nike Air Jordan-01", price: "$200.20" },
+    { image: shoe5, rating: "4.5", title: "Nike Air Jordan-10", price: "$210.20" },
+    { image: shoe6, rating: "4.5", title: "Nike Air Jordan-100", price: "$220.20" },
+    { image: shoe7, rating: "4.5", title: "Nike Air Jordan-001", price: "$230.20" }
 ]

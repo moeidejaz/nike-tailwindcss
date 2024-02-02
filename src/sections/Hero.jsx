@@ -8,10 +8,10 @@ import { stats, shoes } from "../constants";
 const Hero = () => {
   const [shoeImage, setShoeImage] = useState(bigShoe1);
   return (
-    <section className="flex flex-col xl:flex-row">
+    <section className="flex flex-col xl:flex-row" id="home">
       <div className="xl:w-2/5 lg:mt-20 padding-x">
         <p className="mt-4 text-coral-red text-xl">Our Summer Collection</p>
-        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[68px] max-sm:leading-[80px] font-bold lg:leading-[120px]">
+        <h1 className="mt-10 font-secondary text-8xl max-sm:text-[68px] max-sm:leading-[80px] font-bold lg:leading-[120px]">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 xl:pr-10">
             The New Arrival
           </span>
@@ -19,7 +19,7 @@ const Hero = () => {
           <span className="text-coral-red">Nike </span>Shoes
         </h1>
 
-        <p className="sm:max-w-sm mt-6 mb-8 font-montserrat text-lg leading-8 text-slate-gray">
+        <p className="sm:max-w-sm mt-6 mb-8 font-primary text-lg leading-8 text-slate-gray">
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
@@ -29,8 +29,8 @@ const Hero = () => {
         <section className="sm:mt-6 mb-6 flex justify-start items-start flex-wrap mt-20 gap-16">
           {stats.map((item, index) => (
             <div key={index}>
-              <p className=" font-palanquin font-bold text-5xl">{item.value}</p>
-              <p className=" font-montserrat text-slate-gray leading-10">
+              <p className=" font-secondary font-bold text-5xl">{item.value}</p>
+              <p className=" font-primary text-slate-gray leading-10">
                 {item.label}
               </p>
             </div>

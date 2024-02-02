@@ -20,6 +20,14 @@
 }
 
 @layer utilities {
+  .font-primary {
+    @apply font-montserrat
+  }
+
+  .font-secondary {
+    @apply font-palanquin
+  }
+
   .padding-x {
     @apply max-sm:px-8 md:px-14
   }
@@ -30,5 +38,9 @@
 
   .padding-r {
     @apply lg:pr-72
+  }
+
+  .padding-y {
+    @apply py-9 md:py-24
   }
 }
