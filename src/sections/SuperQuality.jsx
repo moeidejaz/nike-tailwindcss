@@ -4,7 +4,7 @@ import { shoe8 } from "../assets/images";
 
 const SuperQuality = () => {
   return (
-    <section className="flex flex-col justify-center items-center gap-10 padding-x">
+    <section className="flex flex-col justify-center items-center gap-10 padding-x lg:flex-row lg:justify-between">
       <div className="left">
         <h2 className="font-secondary text-5xl font-bold lg:max-w-lg">
           We Provide You <span className=" text-coral-red">Super Quality</span>{" "}

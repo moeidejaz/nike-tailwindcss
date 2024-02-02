@@ -3,7 +3,7 @@ import { products } from "../constants";
 
 const ProductCard = () => {
   return (
-    <section className="flex flex-col justify-center items-center md:flex-row md:justify-between md:flex-wrap gap-12">
+    <section className="flex flex-col justify-center items-center gap-4 md:flex-row xl:justify-between">
       {products.map((item, index) => (
         <section className="hover:cursor-pointer" key={index}>
           <img src={item.image} alt={item.title} className="mb-7" />
@@ -15,7 +15,7 @@ const ProductCard = () => {
             </p>
           </div>
 
-          <h3 className="font-secondary text-2xl font-bold my-2">
+          <h3 className="font-secondary text-2xl leading-normal font-semibold">
             {item.title}
           </h3>
           <p className="font-primary font-bold text-coral-red">{item.price}</p>
