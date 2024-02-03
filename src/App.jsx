@@ -15,12 +15,12 @@ const App = () => {
     <main>
       <Nav />
       <Hero />
-       <PopularProducts />
+      <PopularProducts />
       <SuperQuality />
       <Services />
-      {/*<SpecialOffer />
+      <SpecialOffer />
       <CustomerReviews />
-      <Subscribe /> */}
+      {/*<Subscribe /> */}
     </main>
   );
 };

@@ -1,4 +1,4 @@
-import { thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, bigShoe1, bigShoe2, bigShoe3, shoe4, shoe5, shoe6, shoe7 } from "../assets/images"
+import { thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, bigShoe1, bigShoe2, bigShoe3, shoe4, shoe5, shoe6, shoe7, customer1, customer2 } from "../assets/images"
 import { truckFast, shieldTick, support } from "../assets/icons"
 
 
@@ -32,4 +32,9 @@ export const services = [
     { image: truckFast, title: "Free shipping", description: "Enjoy seamless shopping with our complimentary shipping service." },
     { image: shieldTick, title: "Secure Payment", description: "Experience worry-free transactions with our secure payment options." },
     { image: support, title: "Love to help you", description: "Our dedicated team is here to assist you every step of the way." }
+]
+
+export const reviews = [
+    { image: customer1, review_text: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!", rating: "4.5", name: "Morich Brown" },
+    { image: customer2, review_text: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!", rating: "4.5", name: "Lota Mongeskar" }
 ]

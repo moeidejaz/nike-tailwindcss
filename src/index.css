@@ -43,4 +43,8 @@
   .padding-y {
     @apply py-9 md:py-24
   }
+
+  .info-text {
+    @apply font-primary text-slate-gray text-lg
+  }
 }

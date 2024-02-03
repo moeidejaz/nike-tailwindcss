@@ -23,7 +23,7 @@ const Hero = () => {
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
-        <Button label={"Shop Now"} imgUrl={arrowRight} />
+        <Button label={"Shop Now"} imgURL={arrowRight} />
 
         {/* stats */}
         <section className="sm:mt-6 mb-6 flex justify-start items-start flex-wrap mt-20 gap-16">
