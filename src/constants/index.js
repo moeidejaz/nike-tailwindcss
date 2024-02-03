@@ -36,5 +36,5 @@ export const services = [
 
 export const reviews = [
     { image: customer1, review_text: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!", rating: "4.5", name: "Morich Brown" },
-    { image: customer2, review_text: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!", rating: "4.5", name: "Lota Mongeskar" }
+    { image: customer2, review_text: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!", rating: "4.5", name: "Lota Mongeskar" },
 ]

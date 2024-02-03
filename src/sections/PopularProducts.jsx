@@ -1,4 +1,5 @@
 import ProductCard from "../Components/ProductCard";
+import { products } from "../constants";
 
 const PopularProducts = () => {
   return (
@@ -10,8 +11,17 @@ const PopularProducts = () => {
         Experience top-notch quality and style with our sought-after selections.
         Discover a world of comfort, design, and value
       </p>
-
-      <ProductCard />
+      <section className="flex flex-col justify-center items-center gap-4 md:flex-row xl:justify-between">
+        {products.map((product, index) => (
+          <ProductCard
+            key={index}
+            image={product.image}
+            rating={product.rating}
+            title={product.title}
+            price={product.price}
+          />
+        ))}
+      </section>
     </section>
   );
 };

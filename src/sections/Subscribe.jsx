@@ -1,7 +1,15 @@
 const Subscribe = () => {
   return (
-    <div>Subscribe</div>
-  )
-}
+    <section>
+      <h3 className="font-secondary text-4xl">
+        Sign Up from <span className="text-coral-red">Updates</span> &
+        Newsletter
+      </h3>
 
-export default Subscribe
+      <div>
+      </div>
+    </section>
+  );
+};
+
+export default Subscribe;
