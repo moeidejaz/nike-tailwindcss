@@ -20,7 +20,8 @@ const App = () => {
       <Services />
       <SpecialOffer />
       <CustomerReviews />
-      {/*<Subscribe /> */}
+      <Subscribe />
+      {/* <Footer/> */}
     </main>
   );
 };

@@ -32,16 +32,16 @@
     @apply max-sm:px-8 md:px-14
   }
 
+  .padding-y {
+    @apply py-9 md:py-24
+  }
+
   .padding-l {
     @apply lg:pl-16 max-sm:pl-8
   }
 
   .padding-r {
     @apply lg:pr-72
-  }
-
-  .padding-y {
-    @apply py-9 md:py-24
   }
 
   .info-text {
