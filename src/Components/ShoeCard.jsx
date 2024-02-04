@@ -15,8 +15,10 @@ const ShoeCard = ({ imgURL, changeBigShoeImg, shoeImg }) => {
       >
         <img
           src={imgURL.thumbnail}
+          width={127}
+          height={137}
           alt="shoe"
-          className="max-sm:w-[80px] max-sm:h-[66px]"
+          className="max-sm:w-[90px] max-sm:h-[80px]"
         />
       </section>
     </div>

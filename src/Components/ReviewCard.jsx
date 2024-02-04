@@ -7,7 +7,9 @@ const ReviewCard = ({ image, reviewText, rating, name }) => {
       <img
         src={image}
         alt={name}
-        className=" w-[120px] h-[120px] rounded-full"
+        width={120}
+        height={120}
+        className="rounded-full"
       />
       <p className="max-w-96 info-text text-center">{reviewText}</p>
 

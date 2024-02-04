@@ -3,7 +3,7 @@ import { star } from "../assets/icons";
 const ProductCard = ({ image, rating, title, price }) => {
   return (
     <section className="hover:cursor-pointer">
-      <img src={image} alt={title} className="mb-7" />
+      <img src={image} alt={title} width={282} height={282} className="mb-7" />
 
       <div className="flex items-center">
         <img src={star} alt="star" className=" mr-2" />

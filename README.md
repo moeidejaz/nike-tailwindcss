@@ -1,8 +1,34 @@
-# React + Vite
+# Nike Landing Page with TailwindCSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Nike Nike + Tailwind CSS, a project created for the purpose of practicing web React + TailwindCSS. This project not only serves as an opportunity to learn TailwindCSS but also incorporates various industry-related practices that have been implemented throughout the development process.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check out the live demo: [Nike + Tailwind CSS](https://tailwindcss-moeidejaz.netlify.app/)
+
+## Features:
+
+- Responsive design for a seamless experience across devices.
+- Utilizes ReactJS for dynamic and efficient user interfaces.
+- TailwindCSS is employed for styling, providing a clean and modern look.
+- Implements industry-related practices and learning outcomes.
+
+## Tech Stack:
+
+- React + Vite
+- TailwindCSS
+- Netlify
+
+## Feedback:
+
+I highly value your feedback! If you encounter any issues or have suggestions for improvement, please feel free to leave a comment or open an issue on the [GitHub repository](https://github.com/moeidejaz/nike-tailwindcss/issues).
+
+## Author:
+
+Abdul Moeid
+
+- [GitHub](https://github.com/moeidejaz)
+- [Portfolio](https://moeidejaz.netlify.app/)
+- [LinkedIn](https://linkedin.com/in/moeidejaz)
+
+Thank you for exploring the Nike +Tailwind CSS project! Happy coding!
