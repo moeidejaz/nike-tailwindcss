@@ -1,12 +1,12 @@
 import { thumbnailShoe1, thumbnailShoe2, thumbnailShoe3, bigShoe1, bigShoe2, bigShoe3, shoe4, shoe5, shoe6, shoe7, customer1, customer2 } from "../assets/images"
-import { truckFast, shieldTick, support } from "../assets/icons"
+import { truckFast, shieldTick, support, facebook, twitter, instagram } from "../assets/icons"
 
 
 export const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#aboutUs", label: "About Us" },
     { href: "#products", label: "Products" },
-    { href: "#contactUs", label: "Contact Us" }
+    { href: "#contact", label: "Contact Us" }
 ]
 
 export const stats = [
@@ -37,4 +37,41 @@ export const services = [
 export const reviews = [
     { image: customer1, review_text: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!", rating: "4.5", name: "Morich Brown" },
     { image: customer2, review_text: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!", rating: "4.5", name: "Lota Mongeskar" },
+]
+
+export const socialLinks = [
+    { imgURL: facebook, link: "https://www.fb.com/nike", alt: "facebook logo" },
+    { imgURL: twitter, link: "https://www.twitter.com/moeidejaz", alt: "twitter logo" },
+    { imgURL: instagram, link: "https://www.instagram.com/nike", alt: "instagram logo" }
+]
+
+export const footerLinks = [
+    {
+        title: "Products",
+        links: [
+            { name: "Air Force 1", link: "/" },
+            { name: "Air Max 1", link: "/" },
+            { name: "Air Jordan 1", link: "/" },
+            { name: "Air Force 2", link: "/" },
+            { name: "Nike Waffle Racer", link: "/" },
+            { name: "Nike Cortez", link: "/" },
+        ]
+    },
+    {
+        title: "Help",
+        links: [
+            { name: "About Us", link: "/" },
+            { name: "FAQs", link: "/" },
+            { name: "How it works", link: "/" },
+            { name: "Privacy policy", link: "/" },
+            { name: "Payment policy", link: "/" },
+        ]
+    },
+    {
+        title: "Get in touch",
+        links: [
+            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+            { name: "+92554862354", link: "tel:+92554862354" }
+        ]
+    }
 ]

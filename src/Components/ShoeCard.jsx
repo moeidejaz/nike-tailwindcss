@@ -10,7 +10,7 @@ const ShoeCard = ({ imgURL, changeBigShoeImg, shoeImg }) => {
       }`}
     >
       <section
-        className="bg-card bg-cover bg-center flex justify-center items-center w-28 h-28 lg:w-40 lg:h-40 rounded-xl hover:cursor-pointer"
+        className="bg-card bg-cover bg-center flex justify-center items-center w-24 h-24 md:w-40 md:h-40 rounded-xl hover:cursor-pointer"
         onClick={handleClick}
       >
         <img

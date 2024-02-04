@@ -11,7 +11,7 @@ const PopularProducts = () => {
         Experience top-notch quality and style with our sought-after selections.
         Discover a world of comfort, design, and value
       </p>
-      <section className="flex flex-col justify-center items-center gap-4 md:flex-row xl:justify-between">
+      <section className="flex flex-col justify-center items-center gap-5 md:flex-row xl:justify-between max-lg:flex-wrap">
         {products.map((product, index) => (
           <ProductCard
             key={index}

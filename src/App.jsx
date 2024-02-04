@@ -21,7 +21,7 @@ const App = () => {
       <SpecialOffer />
       <CustomerReviews />
       <Subscribe />
-      {/* <Footer/> */}
+      <Footer/>
     </main>
   );
 };
